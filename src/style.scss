@@ -1,3 +1,47 @@
+$header-color: #00FF00;
+$nav-bar-color: #FF0000;
+
+$title-color: #FF00FF;
+$big-tile-color: #FF9955;
+$small-tile-color: #0000FF;
+
+$footer-color: $header-color;
+
 html, body, #react-app {
 	height: 100%;
+}
+
+.header {
+	background-color: $header-color;
+	height: 30px;
+}
+
+.navbar {
+	background-color: $nav-bar-color;
+	height: 500px;
+}
+
+.body {
+	padding: 2px;
+}
+
+.title {
+	background-color: $title-color;
+	height: 40px;
+}
+
+.big-tile {
+	background-color: $big-tile-color;
+	height: 240px;
+}
+
+.small-tile {
+	background-color: $small-tile-color;
+	height: 100px;
+	margin: 2px;
+}
+
+.footer {
+	background-color: $footer-color;
+	height: 15px;
 }
