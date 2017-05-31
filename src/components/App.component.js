@@ -15,24 +15,24 @@ export default class App extends React.Component {
 							<div className="row">
 								<div className="col-xs-12 title-col"><div className="title" /></div>
 							</div>
-							<div className="row big-tile-container">
-								<div className="col-md-6 col-sm-12 big-tile-col"><div className="big-tile" /></div>
-								<div className=" col-md-6 col-sm-12 big-tile-col"><div className="big-tile" /></div>
+							<div className="row big-tile-row">
+								<div className="big-tile-container">
+									<div className="col-md-6 col-sm-12 big-tile-col"><div className="big-tile" /></div>
+									<div className=" col-md-6 col-sm-12 big-tile-col"><div className="big-tile" /></div>
+								</div>
 							</div>
 							<div className="small-tile-container">
 								<div className="row small-tile-row">
-									<div className="col-md-2"><div className="small-tile" /></div>
-									<div className="col-md-2"><div className="small-tile" /></div>
-									<div className="col-md-3"><div className="small-tile" /></div>
-									<div className="col-md-2"><div className="small-tile" /></div>
-									<div className="col-md-2"><div className="small-tile" /></div>
-								</div>
-								<div className="row small-tile-row">
-									<div className="col-md-2"><div className="small-tile" /></div>
-									<div className="col-md-2"><div className="small-tile" /></div>
-									<div className="col-md-3"><div className="small-tile" /></div>
-									<div className="col-md-2"><div className="small-tile" /></div>
-									<div className="col-md-2"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-3 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-3 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
+									<div className="col-md-2 col-md-4 col-xs-6"><div className="small-tile" /></div>
 								</div>
 							</div>
 						</div>
