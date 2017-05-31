@@ -20,11 +20,12 @@ html, body, #react-app {
 }
 .navbar-col {
 	padding: 0 2.5px 0 0;
-	.navbar {
+	.custom-navbar {
 		background-color: $nav-bar-color;
 	//	height: 515px;
 		//height: 870.225px;
 		height: 93.5vh;
+	//	height: 100%;
 		border: 3px solid grey;
 		margin-bottom: 0;
 	}	

@@ -9,7 +9,7 @@ export default class App extends React.Component {
 					<div className="header col-xs-12"></div>
 				</div>
 				<div className="row">
-					<div className="col-md-2 col-sm-1 hidden-xs navbar-col"><div className="navbar" /></div>
+					<div className="col-md-2 col-sm-1 hidden-xs navbar-col"><div className="custom-navbar" /></div>
 					<div className="col-md-10 col-sm-11 col-xs-12 body-col">
 						<div className="body">
 							<div className="row">
