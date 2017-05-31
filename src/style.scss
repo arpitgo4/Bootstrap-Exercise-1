@@ -46,12 +46,11 @@ html, body, #react-app {
 	margin: 0px -5px;
 
 	.big-tile-container {
-		padding: 0px 0px;
 		.big-tile {
 			background-color: $big-tile-color;
 			height: 240px;
 			border: 3px solid grey;
-			margin: 5px 0px;
+			margin: 5px 0;
 		}
 
 		.big-tile-col {
@@ -63,30 +62,18 @@ html, body, #react-app {
 
 
 .small-tile-container {
-	margin-bottom: 5px;
-
 	.small-tile-row {
-		&:first-child {
-			margin-bottom: 5px;
-		}
+		margin: 0 -5px;
 
 		& > div {
-			//padding: 10px;
+			padding: 0 5px;
 		}
 
 		.small-tile {
 			background-color: $small-tile-color;
 			height: 100px;
-			margin: {
-				top: 1px;
-				left: 0px;
-				bottom: 1px;
-			}
+			margin: 2.6225px 0;
 			border: 3px solid grey;
-
-			&:not(:last-child) {
-				//margin-right: 10px;
-			}
 		}
 	}
 }
