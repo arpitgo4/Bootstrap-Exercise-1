@@ -14,23 +14,25 @@ export default class App extends React.Component {
 						<div className="row">
 							<div className="title col-xs-12"></div>
 						</div>
-						<div className="row">
-							<div className="col-md-5 big-tile"></div>
-							<div className="col-md-offset-1 col-md-5 big-tile"></div>
+						<div className="row big-tile-container">
+							<div style={{ marginRight: 5 }} className="col-md-5 big-tile"></div>
+							<div className=" col-md-5 big-tile"></div>
 						</div>
-						<div className="row">
-							<div className="col-md-2 small-tile"></div>
-							<div className="col-md-2 small-tile"></div>
-							<div className="col-md-3 small-tile"></div>
-							<div className="col-md-2 small-tile"></div>
-							<div className="col-md-2 small-tile"></div>
-						</div>
-						<div className="row">
-							<div className="col-md-2 small-tile"></div>
-							<div className="col-md-2 small-tile"></div>
-							<div className="col-md-3 small-tile"></div>
-							<div className="col-md-2 small-tile"></div>
-							<div className="col-md-2 small-tile"></div>
+						<div className="small-tile-container">
+							<div className="row">
+								<div className="col-md-2 small-tile"></div>
+								<div className="col-md-2 small-tile"></div>
+								<div className="col-md-3 small-tile"></div>
+								<div className="col-md-2 small-tile"></div>
+								<div className="col-md-2 small-tile"></div>
+							</div>
+							<div className="row">
+								<div className="col-md-2 small-tile"></div>
+								<div className="col-md-2 small-tile"></div>
+								<div className="col-md-3 small-tile"></div>
+								<div className="col-md-2 small-tile"></div>
+								<div className="col-md-2 small-tile"></div>
+							</div>
 						</div>
 					</div>
 				</div>

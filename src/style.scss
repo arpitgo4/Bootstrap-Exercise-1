@@ -21,27 +21,40 @@ html, body, #react-app {
 
 .navbar {
 	background-color: $nav-bar-color;
-	height: 500px;
+	height: 510px;
 	border: 3px solid grey;
+	margin-bottom: 5px;
 }
 
 .body {
 	border: 2px solid grey;
 	margin-left: 5px;
 	width: 91.2%;
-	height: 500px;
+	height: 510px;
+	padding: 5px 20px;
 }
 
 .title {
 	background-color: $title-color;
 	height: 40px;
 	border: 3px solid grey;
+	margin-bottom: 5px;
+}
+
+.big-tile-container {
+
 }
 
 .big-tile {
 	background-color: $big-tile-color;
 	height: 240px;
 	border: 3px solid grey;
+	margin-bottom: 5px;
+	width: 49.7720%;
+}
+
+.small-tile-container {
+	margin-bottom: 5px;
 }
 
 .small-tile {
