@@ -43,7 +43,9 @@ export default class App extends React.Component {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-xs-12 footer" />
+					<div className="col-xs-12 footer-col">
+						<div className="footer" />
+					</div>
 				</div>
 			</div>
 		);

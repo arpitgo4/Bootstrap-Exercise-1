@@ -24,6 +24,7 @@ html, body, #react-app {
 		background-color: $nav-bar-color;
 		height: 515px;
 		border: 3px solid grey;
+		margin-bottom: 0;
 	}	
 }
 
@@ -60,9 +61,7 @@ html, body, #react-app {
 			padding: 0px 5px;
 		}
 	}
-
 }
-
 
 .small-tile-container {
 	.small-tile-row {
@@ -81,9 +80,12 @@ html, body, #react-app {
 	}
 }
 
-.footer {
-	background-color: $footer-color;
-	height: 25px;
-	border: 3px solid grey;
-	margin-top: -10px;
+.footer-col {
+	padding: 0;
+	.footer {
+		background-color: $footer-color;
+		height: 25px;
+		border: 3px solid grey;
+		margin-top: .7%;
+	}	
 }
