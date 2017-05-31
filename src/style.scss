@@ -31,14 +31,14 @@ html, body, #react-app {
 	margin-left: .39%;
 	width: 91.27%;
 	height: 515px;
-	padding: 3px 18px;
 }
-
-.title {
-	background-color: $title-color;
-	height: 40px;
-	border: 3px solid grey;
-	margin-bottom: 5px;
+.title-col {
+	padding: 2px;
+	.title {
+		background-color: $title-color;
+		height: 40px;
+		border: 3px solid grey;
+	}
 }
 
 .big-tile-container {
@@ -47,11 +47,17 @@ html, body, #react-app {
 		height: 240px;
 		border: 3px solid grey;
 		margin-bottom: 5px;
-		width: 49.7720%;
-
+		//width: 49.7720%;
+		width: 100%;
+		//margin-left: -2.4%;
+		
 		&:first-child {
 			margin-right: 5px;
 		}
+	}
+
+	.big-tile-col {
+		padding: 2px;
 	}
 }
 
