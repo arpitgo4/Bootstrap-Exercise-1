@@ -25,15 +25,21 @@ html, body, #react-app {
 	border: 3px solid grey;
 }
 
-.body {
-	border: 3px solid #bfbfbf;
-	//margin-left: 5px;
-	margin-left: .39%;
-	width: 91.27%;
-	height: 515px;
+.body-col {
+	.body {
+		border: 3px solid #bfbfbf;
+		//margin-left: 5px;
+		//margin-left: .39%;
+		//width: 91.27%;
+		//width: 100%;
+		//height: 515px;
+		height: auto;
+		padding: 2px;
+	}
 }
+
 .title-col {
-	padding: 2px;
+	//padding: 2px;
 	.title {
 		background-color: $title-color;
 		height: 40px;
@@ -46,7 +52,7 @@ html, body, #react-app {
 		background-color: $big-tile-color;
 		height: 240px;
 		border: 3px solid grey;
-		margin-bottom: 5px;
+		margin: 5px 0px;
 		//width: 49.7720%;
 		width: 100%;
 		//margin-left: -2.4%;
@@ -57,12 +63,13 @@ html, body, #react-app {
 	}
 
 	.big-tile-col {
-		padding: 2px;
+
 	}
 }
 
 .small-tile-container {
 	margin-bottom: 5px;
+
 
 	.small-tile-row {
 		&:first-child {
