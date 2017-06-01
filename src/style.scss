@@ -12,7 +12,8 @@ html, body, #react-app {
 	padding: 3px 3px;
 }
 
-.container-fluid, .navbar-row, .body { height: 100%; }
+.container-fluid { height: 100%; } 
+.navbar-row { height: 100%; }
 
 .header {
 	background-color: $header-color;
@@ -46,44 +47,56 @@ html, body, #react-app {
 	}
 }
 
-.title-col {
-	.title {
-		background-color: $title-color;
-		height: 40px;
-		border: 3px solid grey;
+.title-row {
+	height: 7.8%;
+	.title-col {
+		height: 100%;
+		.title {
+			background-color: $title-color;
+			height: 100%;
+			border: 3px solid grey;
+		}
 	}
 }
 
 .big-tile-row {
 	margin: 0px -5px;
+	height: 45%;
 
 	.big-tile-container {
-		.big-tile {
-			background-color: $big-tile-color;
-			height: 240px;
-			border: 3px solid grey;
-			margin: 5px 0;
-		}
-
+		height: 100%;
 		.big-tile-col {
 			padding: 0px 5px;
+			height: 100%;
+
+			.big-tile {
+				background-color: $big-tile-color;
+				//height: 240px;
+				height: 97.5%;
+				border: 3px solid grey;
+				margin: 5px 0;
+			}
 		}
 	}
 }
 
 .small-tile-container {
+	height: 47%;
+	
 	.small-tile-row {
 		margin: 0 -5px;
-
-		& > div {
+		height: 100%;
+	
+		.small-tile-col {
 			padding: 0 5px;
-		}
+			height: 50%;
 
-		.small-tile {
-			background-color: $small-tile-color;
-			height: 100px;
-			margin: 2.6225px 0;
-			border: 3px solid grey;
+			.small-tile {
+				background-color: $small-tile-color;
+				height: 97%;
+				margin: 2.6225px 0;
+				border: 3px solid grey;
+			}
 		}
 	}
 }
