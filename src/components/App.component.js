@@ -6,13 +6,13 @@ export default class App extends React.Component {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<div className="header col-xs-12"></div>
+					<div className="header col-xs-12" />
 				</div>
-				<div className="row">
-					<div className="col-md-2 col-sm-1 hidden-xs navbar-col"><div className="custom-navbar" /></div>
+				<div className="row navbar-row">
+					<div className="col-md-2 col-sm-1 hidden-xs navbar-col"><div className="custom-navbar"></div></div>
 					<div className="col-md-10 col-sm-11 col-xs-12 body-col">
 						<div className="body">
-							<div className="row">
+							<div className="row title-row">
 								<div className="col-xs-12 title-col"><div className="title" /></div>
 							</div>
 							<div className="row big-tile-row">
@@ -41,8 +41,6 @@ export default class App extends React.Component {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="row">
 					<div className="col-xs-12 footer-col">
 						<div className="footer" />
 					</div>
