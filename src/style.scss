@@ -45,6 +45,7 @@ html, body, #react-app {
 		border: 3px solid #bfbfbf;
 		height: 100%;
 		padding: 4px;
+		overflow: auto;
 	}
 }
 
@@ -81,11 +82,11 @@ html, body, #react-app {
 	}
 }
 
-.small-tile-container {
+.small-tile-row {
+	margin: 0 -5px;
 	height: 47%;
 	
-	.small-tile-row {
-		margin: 0 -5px;
+	.small-tile-container {
 		height: 100%;
 	
 		.small-tile-col {

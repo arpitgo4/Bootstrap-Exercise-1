@@ -21,8 +21,9 @@ export default class App extends React.Component {
 									<div className=" col-md-6 col-sm-12 big-tile-col"><div className="big-tile" /></div>
 								</div>
 							</div>
-							<div className="small-tile-container">
-								<div className="row small-tile-row">
+
+							<div className="row small-tile-row">
+								<div className="small-tile-container">
 									<div className="col-md-2 col-sm-3 col-xs-6 small-tile-col"><div className="small-tile" /></div>
 									<div className="col-md-2 col-sm-3 col-xs-6 small-tile-col"><div className="small-tile" /></div>
 									<div className="col-md-2 col-sm-3 col-xs-6 small-tile-col"><div className="small-tile" /></div>
@@ -46,5 +47,4 @@ export default class App extends React.Component {
 			</div>
 		);
 	}
-
 }
